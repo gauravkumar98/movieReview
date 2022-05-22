@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %} 
+    <div class="row">
+      <form class="comment" action = "results.html" method="POST">
+          <textarea id="movie-review" name="result" class="form-control" rows="5" placeholder="Write your review.." required></textarea>
+          <button class="btn" type="submit", value="submit" style="margin: 1%; padding: 1%; float:right;">Submit Review</button>
+      </form>
+    </div>
+{% endblock %}
